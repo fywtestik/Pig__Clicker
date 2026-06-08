@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'PhantomMuff'; /* Название, которое вы будете использовать в CSS */
+  src: url('../fonts/PhantomMuff.ttf') format('truetype');
+  font-weight: 400; /* Нормальное начертание */
+  font-style: normal;
+}
+h2
+{
+    font-size: 30px;
+    color: #64006E;
+    font-family: "PhantomMuff";
+}
+body
+{
+    background: #FFBCFF;
+    max-width: 1920px;
+    max-height: 1080px;
+    margin: auto;
+}
+#main
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+#score
+{
+    font-size: 150px;
+    color: #64006E;
+    font-family: "PhantomMuff";
+    transform: scale(0.75);
+}
+#pig
+{
+
+    background: rgba(255, 255, 255, 0);
+    border: 0px;
+    width: 542px;
+    height: 469px;
+    transform: scale(0.75);
+}
+#main__buttons
+{
+    max-height: 120px;
+    min-width: 700px;
+    margin-top: 110px;
+}
+.button
+{
+    background: rgba(255, 255, 255, 0);
+    border: 0px;
+    background-image: url(/icon/other/button.png) ;
+    background-image: #ED89FD;
+    width: 320px;
+    height: 120px;
+    font-family: "PhantomMuff";
+    font-size: 20px;
+    display: relative;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    color: #64006E;
+   
+    white-space: pre-line;
+}
+#hackclub__logo
+{
+    
+    width: 0px;
+    height: 0px;
+    margin-right: 1300px;
+    transform: scale(0);
+    color: #ffffff00;
+}
+#button__promocodes
+{
+    margin-left: 500px;
+    
+}
+#button__shop
+{
+    position: relative;
+    top:35px;
+    margin-right: 500px;
+}
+.shop {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(4, 1fr);   
+  gap: 10px;
+  width: 100%;
+  
+  margin-left: 315px;
+  margin-top:50px;
+}
+#button__upd
+{
+    white-space: pre-line;
+}
+.button__txt
+{
+    white-space: pre-line;
+}
+
